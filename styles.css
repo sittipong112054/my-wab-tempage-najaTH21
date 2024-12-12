@@ -1,0 +1,163 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(160deg, #827397, #363062);
+  color: #000000;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.banner {
+  /* position: relative;
+  width: 100%;
+  height: 400px;
+  overflow: hidden; */
+  display: flex
+  ;
+      align-items: flex-end;
+      -webkit-box-pack: end;
+      justify-content: flex-end;
+      position: relative;
+      height: 100%;
+      width: 100%;
+      padding-right: ;
+      padding-bottom: ;
+      padding-left: ;
+      padding-top: 0px;
+      overflow: visible;
+}
+
+.banner-image {
+  /* width: 1024px;
+  height: 576px;
+  object-fit: cover; */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(70%);
+}
+
+.banner123-image,
+.Jack-image {
+  width: 40px;
+  height: 50px;
+}
+
+.banner-video {
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  transform: translateY(-50%);
+  width: 300px;
+  border: 4px solid white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.content {
+  padding: 20px;
+  max-width: 800px;
+  text-align: left;
+}
+
+.title {
+  font-size: 36px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.title:hover {
+  color: yellow;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+  color: #ffd700;
+  font-size: 18px;
+}
+
+.rating span {
+  font-size: 1.2rem;
+}
+
+.rating a {
+  text-decoration: none;
+  color: #ff12f3;
+  font-weight: bold;
+}
+
+.release-date {
+  font-size: 1.2rem;
+  margin: 20px 0;
+  color: #ffc107;
+}
+
+.description {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.actors {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.actor {
+  text-align: center;
+  width: 100px;
+  transition: color 0.4s ease;
+}
+
+.actor:hover {
+  color: yellow;
+  cursor: pointer;
+}
+
+.actor img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border: 2px solid;
+  box-shadow: 0 0 8px rgba(216, 147, 147, 0.5);
+}
+
+.actor span {
+  display: block;
+  font-size: 0.9rem;
+}
+
+.content-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+  padding: 0 20px;
+}
+
+.image img {
+  width: 151.97px;
+  height: 224.91px;
+  border-radius: 10px;
+}
+
+.text {
+  max-width: 600px;
+  color: white;
+}
